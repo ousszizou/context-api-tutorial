@@ -13,7 +13,7 @@ To see the course files, make sure you select the appropriate branch. E.g. to se
 - [ ] context API
   - [×] what? why? when?
   - [×] create context
-  - [ ] provider
+  - [×] provider
   - [ ] consumer
   - [ ] context type
   - [ ] display name
