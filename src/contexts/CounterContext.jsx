@@ -1,6 +1,6 @@
 import React, { createContext, useState } from "react";
 
-const counterCxt = createContext(0);
+export const CounterCxt = createContext(0);
 
 const CounterContextProvider = (props) => {
   const [counter, setCounter] = useState(0);
@@ -11,7 +11,7 @@ const CounterContextProvider = (props) => {
   const value = { counter, increaseCounter, decreaseCounter };
 
   return (
-    <counterCxt.Provider value={value}>{props.children}</counterCxt.Provider>
+    <CounterCxt.Provider value={value}>{props.children}</CounterCxt.Provider>
   );
 };
 
