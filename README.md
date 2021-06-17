@@ -14,7 +14,7 @@ To see the course files, make sure you select the appropriate branch. E.g. to se
   - [×] what? why? when?
   - [×] create context
   - [×] provider
-  - [ ] consumer
+  - [×] consumer
   - [ ] context type
   - [ ] display name
   - [ ] Multiple Contexts
