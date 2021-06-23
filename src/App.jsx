@@ -3,6 +3,7 @@ import "./App.css";
 import CompA from "./components/CompA";
 import { Counter } from "./components/Counter";
 import CounterContextProvider from "./contexts/CounterContext";
+import NameContextProvider from "./contexts/NameContext";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <h1>Context API</h1>
       <CounterContextProvider>
         <Counter />
-        <CompA />
+        <NameContextProvider>
+          <CompA />
+        </NameContextProvider>
       </CounterContextProvider>
     </div>
   );
