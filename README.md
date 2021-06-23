@@ -17,4 +17,4 @@ To see the course files, make sure you select the appropriate branch. E.g. to se
   - [×] consumer
   - [×] display name
   - [×] Multiple Contexts
-- [ ] context API with hooks
+- [×] context API with hooks
