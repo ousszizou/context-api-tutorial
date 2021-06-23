@@ -10,11 +10,11 @@ To see the course files, make sure you select the appropriate branch. E.g. to se
 
 - [×] lifting state up
 - [×] Prop drilling
-- [ ] context API
+- [×] context API
   - [×] what? why? when?
   - [×] create context
   - [×] provider
   - [×] consumer
   - [×] display name
-  - [ ] Multiple Contexts
+  - [×] Multiple Contexts
 - [ ] context API with hooks
